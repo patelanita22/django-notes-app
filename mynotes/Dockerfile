@@ -1,7 +1,7 @@
 FROM node:8
 
 WORKDIR /app/
-COPY . /app/ or  COPY . .
+COPY . /app/ 
 
 RUN npm install
 
